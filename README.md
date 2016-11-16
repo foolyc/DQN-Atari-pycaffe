@@ -1,6 +1,7 @@
 # DQN-Atari-pycaffe
-A very simple version of playing Atari with Deep Q Learning in caffe(python interface)
+A very simple version of playing Atari with Deep Q Learning in caffe(using the python interface of caffe).
 
+Thanks to - [DQN-tensorflow](https://github.com/devsisters/DQN-tensorflow/), the file environment.py is copyed from it.
 
 ## Requirements
 
@@ -12,9 +13,11 @@ A very simple version of playing Atari with Deep Q Learning in caffe(python inte
 
 ## Usage
 To train a model for Breakout:
+
     $ python main.py True
 
 To test and record the screen with gym:
+
     $ python main.py False
 
 ## Algorithm Details
